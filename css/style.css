@@ -10,11 +10,13 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 h1 {
     font-size: 48px;
     text-align: center;
+    margin-top: 30px;
     
 }
 h3 {
@@ -49,14 +51,17 @@ h2{
 
 .button-learn{
     border: 1px solid var(--primary-color);
-    background-color: rgb(226, 217, 217);
-    color: #6c63ff;
+    background-color: rgb(245, 159, 159);
+    color: #101011;
     border-radius: 4px;
     font-size: 18px;
     padding: 15px 30px;
     line-height: 27px;
     margin-bottom: 10px;
 
+}
+.button-learn:hover{
+    background-color: rgb(171, 171, 238);
 }
 
 .contents{
@@ -67,4 +72,43 @@ h2{
         padding: 0;
         text-align: center;
     }
+}
+.container img:hover{
+    opacity: 1;
+    box-shadow: var(--box-shadow);
+}
+.greetings{
+    font-size: 30px;
+    margin-top: 25px;
+}
+.about-paragraphs{
+    margin-top: 70px;
+    font-family: 'Saira Condensed', sans-serif;
+    text-align: center;
+}
+.info{
+    margin-top: 25px;
+    font-size: 20px;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+.btn-projects{
+    border: 1px solid var(--primary-color);
+        background-color: rgb(67, 100, 245);
+        color: #f8f8fc;
+        border-radius: 10px;
+        font-size: 18px;
+        padding: 15px;
+        line-height: 27px;  
+        margin-top: 50px;    
+        
+}
+.btn-projects:hover{
+    background-color: #6bd5e7;
+}
+.container-about img{
+    border-radius: 20px;
+}
+.container-about{
+    margin-left: 50px;
 }
