@@ -91,6 +91,11 @@ h2{
     font-size: 20px;
     font-family: 'Saira Condensed', sans-serif;
 }
+.work-data{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 100px;
+    font-size: 60px;
+}
 
 .btn-projects{
     border: 1px solid var(--primary-color);
@@ -101,7 +106,6 @@ h2{
         padding: 15px;
         line-height: 27px;  
         margin-top: 50px;    
-        
 }
 .btn-projects:hover{
     background-color: #6bd5e7;
@@ -112,3 +116,21 @@ h2{
 .container-about{
     margin-left: 50px;
 }
+.work-container{
+    padding: 30px;
+    margin: 0;
+}
+.script{
+    font-family: 'Saira Condensed',
+        sans-serif;
+}
+.work-contents{
+    text-align: center;
+    font-family: 'Poppins',
+        sans-serif;
+
+}
+.nav-item{
+    padding: 5px;
+}
+
