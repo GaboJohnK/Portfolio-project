@@ -1,6 +1,6 @@
 :root {
     --primary-color: #6c63ff;
-    --secondary-color: #6bd5e7;
+    --secondary-color: #42d4ee;
     --box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
 }
 
@@ -14,7 +14,7 @@ body {
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 40px;
     text-align: center;
     margin-top: 30px;
     
@@ -78,8 +78,8 @@ h2{
     box-shadow: var(--box-shadow);
 }
 .greetings{
-    font-size: 30px;
-    margin-top: 25px;
+    font-size: 20px;
+    font-family: 'Saira Condensed', sans-serif;
 }
 .about-paragraphs{
     margin-top: 70px;
@@ -93,8 +93,8 @@ h2{
 }
 .work-data{
     font-family: 'Poppins', sans-serif;
-    margin-top: 100px;
     font-size: 60px;
+    font-style: italic;
 }
 
 .btn-projects{
@@ -108,7 +108,7 @@ h2{
         margin-top: 50px;    
 }
 .btn-projects:hover{
-    background-color: #6bd5e7;
+    background-color: var(--secondary-color);;
 }
 .container-about img{
     border-radius: 20px;
@@ -130,9 +130,7 @@ h2{
         sans-serif;
 
 }
-.nav-item{
-    padding: 5px;
-}
+
 #details{
     list-style: none;
     font-size: 20px;
@@ -145,3 +143,26 @@ font-family: 'Poppins',
         margin-top: 100px;
         font-size: 80px;
 }
+
+nav li{
+    display: inline;
+    list-style: none;
+    margin-left: 15px;
+    font-family: 'Saira Condensed',
+        sans-serif;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: large;
+
+}
+nav a{
+    text-decoration: none; 
+    color: gray;
+}
+nav a:hover{
+    color: var(--secondary-color);
+}
+nav li.active a{
+    color: var(--secondary-color);
+}
+
