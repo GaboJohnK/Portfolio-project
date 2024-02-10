@@ -1,6 +1,6 @@
 :root {
     --primary-color: #6c63ff;
-    --secondary-color: #42d4ee;
+    --secondary-color: #a3ebf8;
     --box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
 }
 
@@ -23,10 +23,14 @@ h3 {
     text-align: center;
     font-family: 'Alumni Sans Inline One', sans-serif;
 }
+h4{
+    font-size: 48px;
+    font-weight: bolder;
+}
 
 p {
     font-size: 16px;
-    text-align: center;
+
     margin-top: 10px;
 }
 h2{
@@ -51,7 +55,7 @@ h2{
 
 .button-learn{
     border: 1px solid var(--primary-color);
-    background-color: rgb(245, 159, 159);
+    background-color: rgb(244, 246, 212);
     color: #101011;
     border-radius: 4px;
     font-size: 18px;
@@ -78,8 +82,10 @@ h2{
     box-shadow: var(--box-shadow);
 }
 .greetings{
-    font-size: 20px;
-    font-family: 'Saira Condensed', sans-serif;
+    font-size: 30px;
+    font-family: 'Poppins',
+        sans-serif;
+    color: #2a2283;
 }
 .about-paragraphs{
     margin-top: 70px;
@@ -108,7 +114,7 @@ h2{
         margin-top: 50px;    
 }
 .btn-projects:hover{
-    background-color: var(--secondary-color);;
+    background-color: var(--secondary-color);
 }
 .container-about img{
     border-radius: 20px;
@@ -158,6 +164,7 @@ nav li{
 nav a{
     text-decoration: none; 
     color: gray;
+    transition: all 0.1s ease;
 }
 nav a:hover{
     color: var(--secondary-color);
@@ -165,4 +172,35 @@ nav a:hover{
 nav li.active a{
     color: var(--secondary-color);
 }
+
+.inquiry-box{
+    background: #f8f8fc;
+    border-radius: 15px;
+    padding: 10px 60px;
+}
+
+footer #email-link{
+    text-decoration: none;
+    color: #101011;
+    font-size: 20px;
+    text-align: center;
+}
+#email-link:hover{
+    color: var(--secondary-color);
+    }
+.social-links a{
+     padding: 10px;
+     text-decoration: none;
+     margin: 0 20px;
+     font-size: 25px;
+     transition: all 150ms ease;
+     color: var(--primary-color);
+     background-color: rgb(247, 243, 246);
+}
+.social-links a:hover{
+       color: #f8f8fc;
+       background-color: var(--secondary-color);
+    }
+
+
 
