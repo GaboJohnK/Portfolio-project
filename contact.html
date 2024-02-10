@@ -14,6 +14,8 @@
         crossorigin="anonymous"
     ></script>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap" rel="stylesheet">
@@ -25,32 +27,37 @@
         rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Front-end developer">
-    <title>Front-end Developer</title>
+    <meta name="description" content="Front-end developer based in Botswana">
+    <title>Contact me - Gabo John</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
   <div class="container">
         <nav class="justify-content-between d-flex">
-          <img src="images/logo.png" width="100" 
-          class="logo mt-5 d-none d-md-block" height="40"/> 
-          <img src="images/logo-small.jpg" width="80"
-          class="small mt-4 d-block d-md-none" height="70"/>
+          <a href="/" title="Homepage">
+          <img 
+          src="images/logo.png" 
+          class="logo mt-5 d-none d-md-block" title="Gabo Logo"/> 
+          <img
+          src="images/logo-small.jpg"
+          class="small mt-4 d-block d-md-none" alt="Gabo Logo"
+          />
+          </a>
           <ul class="nav-contents mt-5">
-            <li class="active">
-              <a href="/"
+            <li>
+              <a href="/" title="Homepage"
                 >Home</a
               >
             </li>
             <li>
-              <a href="about.html">About</a>
+              <a href="about.html" tabindex="About Gabo">About</a>
             </li>
             <li>
-            <a href="work.html">Work</a>
+            <a href="work.html" title="Gabo's work">Work</a>
             </li>
-            <li>
-            <a href="contact.html">Contacts</a>
+            <li class="active">
+            <a href="contact.html" title="Contact Gabo">Contacts</a>
             </li> 
           </ul>
           </nav>
@@ -67,8 +74,53 @@
             @GaboKgalushi</a></li></div>
     <li class="mt-4">Instagram: 
         <div><a href="https://www.instagram.com/gee_kate_john" target="_blank">
-            </a></div>
+            @gee_kate_john</a></div>
     </li>
     </ul>
+    <div class="container">
+     <footer>
+         
+          <div class="inquiry-box d-flex justify-content-between mt-5
+           d-none d-md-flex">
+            <div>
+            <h4>
+              Work Inquiry
+            </h4>
+            <p class="text-muted">Let's work together</p>
+            </div>
+            <div>
+            <a href="contact.html" class="btn btn-button">Contact Me</a>
+            </div>
+          </div>
+
+          <div class="d-flex justify-content-center mt-4 mb-5">
+            
+        <a href="mailto:gabojohnkgalushi@gmail.com" id="email-link">
+            gabojohnkgalushi@gmail.com</a>
+          </div>
+            <div class="social-links text-center mb-3">
+              <a href="http://www.github.com/GaboJohnK" 
+               target="_blank" title="Github Profile">
+          <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="http://www.instagram.com/gee_kate_john" 
+              target="_blank" title="instagram">
+          <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="http://www.twitter.com/GaboKgalushi" 
+              target="_blank" title="twitter" >
+          <i class="fa-brands fa-twitter"></i>
+              </a>
+            </div>
+            <p class="text-center mt-5">
+             ✍ This project was coded by Gabo, and it is 
+              <a href="https://github.com/GaboJohnK/Portfolio-project"
+              target="_blank">
+              open-sourced.
+              </a>
+            </p>
+        
+        </footer>
+    </div>
 </body>
 </html>

@@ -11,12 +11,14 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #f6ebef;
 }
 
 h1 {
     font-size: 40px;
     text-align: center;
     margin-top: 30px;
+    font-family: 'Ubuntu', sans-serif;
     
 }
 h3 {
@@ -87,6 +89,12 @@ h2{
         sans-serif;
     color: #2a2283;
 }
+.logo{
+    max-width: 150px;
+}
+.small{
+    max-width: 80px;
+}
 .about-paragraphs{
     margin-top: 70px;
     font-family: 'Saira Condensed', sans-serif;
@@ -149,6 +157,9 @@ font-family: 'Poppins',
         margin-top: 100px;
         font-size: 80px;
 }
+nav li.active a {
+    color: var(--secondary-color);
+}
 
 nav li{
     display: inline;
@@ -169,9 +180,7 @@ nav a{
 nav a:hover{
     color: var(--secondary-color);
 }
-nav li.active a{
-    color: var(--secondary-color);
-}
+
 
 .inquiry-box{
     background: #f8f8fc;
@@ -181,7 +190,7 @@ nav li.active a{
 
 footer #email-link{
     text-decoration: none;
-    color: #101011;
+    color: #0f0f4f;
     font-size: 20px;
     text-align: center;
 }
@@ -192,7 +201,7 @@ footer #email-link{
      padding: 10px;
      text-decoration: none;
      margin: 0 20px;
-     font-size: 25px;
+     font-size: 20px;
      transition: all 150ms ease;
      color: var(--primary-color);
      background-color: rgb(247, 243, 246);
